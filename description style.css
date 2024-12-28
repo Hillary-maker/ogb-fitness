@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo {
+    font-family: "Mochiy Pop P One", sans-serif;
+  }
+  .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 80px 0 ;
+    background-color: pink; 
+  }
+  body {
+    position: relative;
+  }
+  nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+  }
+  .container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .linkwrapper {
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .linkwrapper li a {
+    color: white;
+    text-decoration: none;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: orange;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  .container2{
+    width: 80%;
+    height: 502px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box{
+    width: 425px;
+    height: 502px;
+    flex-direction: column;
+  }
+.box2{
+    width: 425px;
+    height: 421px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karolina-grabowska-4498609.jpg);
+  background-size: cover;
+}
+.box3{
+    width: 425px;
+    height: 110px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    width: 87px;
+    height: 87px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karolina-grabowska-4498609.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    width: 87px;
+    height: 87px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karolina-grabowska-4498609.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    width: 87px;
+    height: 87px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karolina-grabowska-4498609.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box7{
+    width: 87px;
+    height: 87px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karolina-grabowska-4498609.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8{
+    width: 425px;
+    height: 502px;
+    background-color: red;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }             
+  .h1{
+    font-size: 36px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  .para{
+    font-size: 14px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  .linkwrapper2 {
+    gap: 30px;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  .linkwrapper2 li a {
+    color: black;
+    text-decoration: none;
+    gap: 20px;
+  }
+  .btn{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .resp-btn {
+    display: none;
+  }
+  .responsive-links {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 450px) {
+    .linkwrapper {
+      display: none;
+    }
+    .menu {
+      width: 20px;
+    }
+    .circle {
+      display: none;
+    }
+    .resp-btn {
+      display: block;
+    }
+    .icon-wrap {
+      width: 30px;
+      height: 30px;
+      background-color: orange;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .close {
+      display: none;
+    }
+    .responsive-links {
+      width: 100%;
+      height: 100vh;
+      background-color: orange;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      list-style: none;
+      display: none;
+    }
+    .responsive-links a {
+      color: white;
+      text-decoration: none;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    #order-btn {
+      padding: 10px 50px;
+      background-color: #47802b;
+      border-radius: 4px;
+      margin-top: 70px;
+    }
+  }

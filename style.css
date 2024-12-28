@@ -1,0 +1,1850 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-mart-production-8846567.jpg);
+  background-size: cover;
+}
+body {
+  position: relative;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkwrapper {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper li a {
+  color: white;
+  text-decoration: none;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: orange;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+.box {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.h1 {
+  font-size: 2.5rem;
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: white;
+}
+.para {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.btn {
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-top: 9px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.box2-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+}
+.box2 {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  gap: 10px;
+}
+.box3 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-marta-nogueira-589022975-17093368.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.box4 {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-dom-j-7304-45056.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.box5 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-elly-fairytale-3822906.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.h2 {
+  font-size: 2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.btn2 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.box6 {
+  width: 100%;
+  /* height: 300px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px;
+  gap: 10px;
+}
+.box7 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-marga-ramos-garcia-527581296-16661234.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 60px;
+}
+.box8 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karolina-grabowska-4498609.jpg);
+  background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.box9 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-angela-roma-7479763.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.box10 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-shvetsa-6283499.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+.box11 {
+  width: 100%;
+  height: 100px;
+}
+.h3 {
+  font-size: 2rem;
+  color: green;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h4 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box12 {
+  width: 200px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.box13 {
+  width: 200px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.box14 {
+  width: 200px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.box15 {
+  width: 200px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h8 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.btn3 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.section3 {
+  width: 100%;
+  height: 455px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karlsolano-2780762.jpg);
+  background-size: cover;
+}
+.box16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h9 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h10 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para2 {
+  font-size: 1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn4 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box17-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.box18 {
+  width: 350px;
+  height: 400px;
+}
+.box19 {
+  width: 350px;
+  height: 400px;
+}
+.para3 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.para4 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.h11 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h12 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.section5 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.box20-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box21 {
+  width: 350px;
+  height: 100px;
+}
+.h13 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h14 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.box22 {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-polina-tankilevitch-6516204.jpg);
+  background-size: cover;
+}
+.box23 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.h15 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para5 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section6 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.box24-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box25 {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-elly-fairytale-3822724.jpg);
+  background-size: cover;
+}
+.box26 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.h16 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para6 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section7 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.box27-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box28 {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karolina-grabowska-4397840.jpg);
+  background-size: cover;
+}
+.box29 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.h17 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para7 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section8 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-pavel-danilyuk-6339641.jpg);
+  background-size: cover;
+}
+.h18 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h19 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para8 {
+  font-size: 1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para9 {
+  font-size: 1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para10 {
+  font-size: 1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn5 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.section9 {
+  width: 100%;
+  height: 30vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box31-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box32 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h20 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section10 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box33-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box34 {
+  width: 300px;
+  height: 400px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-alipazani-2887718.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box35 {
+  width: 300px;
+  height: 400px;
+  gap: 10px;
+}
+.h21 {
+  font-size: 1.5rem;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.h22 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para11 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+.circle2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid orange;
+}
+.img2 {
+  width: 30px;
+  height: 30px;
+}
+.circle3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid orange;
+}
+.img3 {
+  width: 30px;
+  height: 30px;
+}
+.section11 {
+  width: 100%;
+  height: 189px;
+  background-color: aqua;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 213, 0, 0.763),
+      rgba(255, 213, 0, 0.763)
+    ),
+    url(images/pexels-mart-production-8033019.jpg);
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box36 {
+  width: 100%;
+  height: 100px;
+}
+.h23 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.box37 {
+  width: 150px;
+  height: 100px;
+}
+.btn6 {
+  padding: 10px 20px;
+  width: 200px;
+  background-color: white;
+  color: rgba(255, 213, 0, 0.763);
+  border-radius: 30px;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.section12 {
+  width: 100%;
+  height: 480px;
+  background-color: #03161d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box38-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-wrap {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 300px;
+  gap: 20px;
+}
+.ball {
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.logo2 {
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.linkwrapper2 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper2 li a {
+  color: white;
+  text-decoration: none;
+}
+.linkwrapper3 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper3 li a {
+  color: white;
+  text-decoration: none;
+}
+.h24 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.para12 {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.h25 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.resp-btn {
+  display: none;
+}
+.responsive-links {
+  display: none;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 450px) {
+  .linkwrapper {
+    display: none;
+  }
+  .menu {
+    width: 20px;
+  }
+  .circle {
+    display: none;
+  }
+  .resp-btn {
+    display: block;
+  }
+  .icon-wrap {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .close {
+    display: none;
+  }
+  .responsive-links {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    display: none;
+  }
+  .responsive-links a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #order-btn {
+    padding: 10px 50px;
+    background-color: #47802b;
+    border-radius: 4px;
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .box2 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 10px;
+  }
+  .box3 {
+    width: 378px;
+    height: 228px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-marta-nogueira-589022975-17093368.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .box4 {
+    width: 378px;
+    height: 228px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-dom-j-7304-45056.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .box5 {
+    width: 378px;
+    height: 228px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-elly-fairytale-3822906.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .box11 {
+    width: 100%;
+    height: 100px;
+  }
+  .h3 {
+    font-size: 2rem;
+    color: green;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h4 {
+    font-size: 2.5rem;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box6 {
+    width: 100%;
+    /* height: 300px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 10px;
+  }
+  .box7 {
+    width: 383px;
+    height: 315px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-marga-ramos-garcia-527581296-16661234.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 60px;
+  }
+  .box8 {
+    width: 383px;
+    height: 315px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karolina-grabowska-4498609.jpg);
+    background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .box9 {
+    width: 383px;
+    height: 315px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-angela-roma-7479763.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .box10 {
+    width: 383px;
+    height: 315px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-shvetsa-6283499.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+  }
+  .btn3 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-family: "Mochiy Pop P One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 {
+    width: 430px;
+    height: auto;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.162),
+        rgba(0, 0, 0, 0.142)
+      ),
+      url(images/pexels-karlsolano-2780762.jpg);
+    background-size: cover;
+  }
+  .box16 {
+    width: 378px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .h9 {
+    font-size: 28px;
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h10 {
+    font-size: 28px;
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .para2 {
+    font-size: 16px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn4 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-family: "Mochiy Pop P One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section4 {
+    width: 430px;
+    height: auto;    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .box17-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .box19 {
+    width: 350px;
+    height: 100px;
+  }
+  .para3 {
+    font-size: 16px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .para4 {
+    font-size: 16px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .h11 {
+    font-size: 16px;
+    color: green;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h12 {
+    font-size: 36px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .section5 {
+    width: 430px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .box20-container {
+    width: 80%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .box21 {
+    width: 350px;
+    height: 100px;
+  }
+  .h13 {
+    font-size: 16px;
+    color: green;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h14 {
+    font-size: 36px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .box22 {
+  width: 382px;
+  height: 363px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-polina-tankilevitch-6516204.jpg);
+  background-size: cover;
+}
+.box23 {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.h15 {
+  font-size: 20px;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para5 {
+  font-size: 16px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section6 {
+  width: 430px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box24-container {
+  width: 80%;
+  height: auto;
+  padding: 20px 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box25 {
+  width: 382px;
+  height: 363px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-elly-fairytale-3822724.jpg);
+  background-size: cover;
+}
+.box26 {
+  width: 350px;
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.h16 {
+  font-size: 20px;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para6 {
+  font-size: 16px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section7 {
+  width: 430px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.box27-container {
+  width: 80%;
+  height: auto;
+  padding: 20px 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box28 {
+  width: 382px;
+  height: 363px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karolina-grabowska-4397840.jpg);
+  background-size: cover;
+}
+.box29 {
+  width: 350px;
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.h17 {
+  font-size: 20px;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.para7 {
+  font-size: 16px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section8 {
+  width: 435px;
+  height: 455px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-pavel-danilyuk-6339641.jpg);
+  background-size: cover;
+}
+.h18 {
+  font-size: 28px;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h19 {
+  font-size: 28px;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para8 {
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.para9 {
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.para10 {
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn5 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.section9 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box31-container {
+  width: 80%;
+  height: auto;
+  padding: 20px 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box32 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h20 {
+  font-size: 28px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section10 {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box33-container {
+  width: 80%;
+  height: auto;
+  flex-direction: column;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box34 {
+  width: 300px;
+  height: 400px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-alipazani-2887718.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box35 {
+  width: 300px;
+  height: auto;
+  gap: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h21 {
+  font-size: 20px;
+  color: green;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.h22 {
+  font-size: 16px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.para11 {
+  font-size: 16px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+.circle2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid orange;
+  display: none;
+}
+.img2 {
+  width: 30px;
+  height: 30px;
+}
+.circle3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid orange;
+  display: none;
+}
+.img3 {
+  width: 30px;
+  height: 30px;
+}
+.section11 {
+  width: 430px;
+  height: 239px;
+  background-color: aqua;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 213, 0, 0.763),
+      rgba(255, 213, 0, 0.763)
+    ),
+    url(images/pexels-mart-production-8033019.jpg);
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box36 {
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h23 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+.box37 {
+  width: 150px;
+  height: 100px;
+}
+.btn6 {
+  padding: 10px 20px;
+  width: 200px;
+  background-color: white;
+  color: rgba(255, 213, 0, 0.763);
+  border-radius: 30px;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.section12 {
+  width: 100%;
+  height: auto;
+  background-color: #03161d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box38-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-wrap {
+  width: 100%;
+ 
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px auto 300px;
+  gap: 20px;
+}
+.bald {
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / 3;
+}
+.logo2 {
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.linkwrapper2 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper2 li a {
+  color: white;
+  text-decoration: none;
+}
+.linkwrapper3 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper3 li a {
+  color: white;
+  text-decoration: none;
+}
+.hen{
+  width: 100%;
+  /* background-color: red; */
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.h24 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.para12 {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.h25 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resp-btn {
+  display: none;
+}
+.responsive-links {
+  display: none;
+}
+}

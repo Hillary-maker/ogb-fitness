@@ -1,0 +1,736 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.section {
+  width: 100%;
+  height: 502px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/top-view-pink-sports-attributes-with-headphones.jpg);
+  background-size: cover;
+}
+body {
+  position: relative;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkwrapper {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper li a {
+  color: white;
+  text-decoration: none;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: orange;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+.box {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #47802b; */
+}
+.h1 {
+  font-size: 2.5rem;
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: white;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.para {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.box2-container {
+  width: 80%;
+  height: 100%;
+  padding: 20px 0;
+}
+.box3 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.btn2 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.products-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.p-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.filter-wrap {
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.h2{
+  font-size: 14px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper2 {
+  gap: 30px;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+#linkwrapper2 li a {
+  color: black;
+  /* background-color: red; */
+  text-decoration: none;
+  font-size: 12px;
+}
+.h3{
+  font-size: 14px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.btn3{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn4{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn5{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.h4{
+  font-size: 14px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper3 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+#linkwrapper3 li a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+.products-wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 20px;
+}
+.product-card {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.162),
+      rgba(0, 0, 0, 0.142)
+    ),
+    url(images/pexels-karolina-grabowska-4498609.jpg);
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h5{
+  font-size: 18px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.h6{
+  font-size: 18px;
+  color: orange;
+  font-family: "Montserrat", sans-serif;
+}
+.btn7{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn7{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn8{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn9{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn10{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.section3 {
+  width: 100%;
+  height: 189px;
+  background-color: aqua;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 213, 0, 0.763),
+      rgba(255, 213, 0, 0.763)
+    ),
+    url(images/pexels-mart-production-8033019.jpg);
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box36 {
+  width: 100%;
+  height: 100px;
+}
+.h23 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.box37 {
+  width: 150px;
+  height: 100px;
+}
+.btn6 {
+  padding: 10px 20px;
+  width: 200px;
+  background-color: white;
+  color: rgba(255, 213, 0, 0.763);
+  border-radius: 30px;
+  border: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.section4{
+  width: 100%;
+  height: 480px;
+  background-color: #03161d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box38-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-wrap {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 300px;
+  gap: 20px;
+}
+.ball {
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.logo2 {
+  color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.linkwrapper2 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper2 li a {
+  color: white;
+  text-decoration: none;
+}
+.linkwrapper3 {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.linkwrapper3 li a {
+  color: white;
+  text-decoration: none;
+}
+.h24 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.para12 {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.h25 {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.resp-btn {
+  display: none;
+}
+.responsive-links {
+  display: none;
+}
+.box100{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* RESPONSIVENESS */
+@media screen and (max-width: 450px) {
+  .linkwrapper {
+    display: none;
+  }
+  .menu {
+    width: 20px;
+  }
+  .circle {
+    display: none;
+  }
+  .resp-btn {
+    display: block;
+  }
+  .icon-wrap {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .close {
+    display: none;
+  }
+  .responsive-links {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    display: none;
+  }
+  .responsive-links a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #order-btn {
+    padding: 10px 50px;
+    background-color: #47802b;
+    border-radius: 4px;
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+    .section2 {
+      width: 430px;
+      height: auto;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+    .box2-container {
+      width: 80%;
+      height: auto;
+      padding: 20px 0;
+    }
+    .box3 {
+      width: 350px;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+    .btn2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+    .p-container {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      grid-template-rows: auto;
+      gap: 20px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .filter-wrap {
+      width: 100%;
+      height: 100%;
+      gap: 40px;
+     display: none;
+    }
+    .products-wrap {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+      gap: 20px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .product-card {
+      width: 382px;
+      height: 249px;
+      background-color: red;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.162),
+          rgba(0, 0, 0, 0.142)
+        ),
+        url(images/pexels-karolina-grabowska-4498609.jpg);
+      background-size: cover;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .h5{
+      font-size: 18px;
+      color: black;
+      font-family: "Montserrat", sans-serif;
+    }
+    .h6{
+      font-size: 18px;
+      color: orange;
+      font-family: "Montserrat", sans-serif;
+    }
+    .section3 {
+      width: 430px;
+      height: 239px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(255, 213, 0, 0.763),
+          rgba(255, 213, 0, 0.763)
+        ),
+        url(images/pexels-mart-production-8033019.jpg);
+      background-size: cover;
+      padding-left: 50px;
+      padding-right: 50px;
+      gap: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box36 {
+      width: 100%;
+      height: 100px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .h23 {
+      font-size: 1.3rem;
+      color: white;
+      font-family: "Mochiy Pop P One", sans-serif;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .box37 {
+      width: 150px;
+      height: 100px;
+    }
+    .btn6 {
+      padding: 10px 20px;
+      width: 200px;
+      background-color: white;
+      color: rgba(255, 213, 0, 0.763);
+      border-radius: 30px;
+      border: none;
+      font-family: "Mochiy Pop P One", sans-serif;
+      margin: 0 auto;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+    .section {
+      width: 100%;
+      height: auto;
+      background-color: #03161d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box38-container {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .footer-wrap {
+      width: 100%;
+     
+    
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 200px auto 300px;
+      gap: 20px;
+    }
+    .bald {
+      width: 100%;
+      height: auto;
+      gap: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 1 / 3;
+    }
+    .logo2 {
+      color: white;
+      font-family: "Mochiy Pop P One", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .linkwrapper2 {
+      gap: 30px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Montserrat", sans-serif;
+    }
+    .linkwrapper2 li a {
+      color: white;
+      text-decoration: none;
+    }
+    .linkwrapper3 {
+      gap: 30px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Montserrat", sans-serif;
+    }
+    .linkwrapper3 li a {
+      color: white;
+      text-decoration: none;
+    }
+    .hen{
+      width: 100%;
+      /* background-color: red; */
+      grid-column: 1 / 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* margin: 0 auto; */
+    }
+    .h24 {
+      font-size: 1.3rem;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .para12 {
+      font-size: 1.1rem;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .h25 {
+      font-size: 1.3rem;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+}
