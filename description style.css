@@ -192,6 +192,18 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  .box9{
+    width: 131px;
+    height: 23px;
+    background-color: aqua;
+  }
+  .box10{
+    width: 50px;
+    height: 15px;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+  }
   .resp-btn {
     display: none;
   }
